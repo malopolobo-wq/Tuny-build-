@@ -1,0 +1,13 @@
+{
+  "name": "tuny-build-monster",
+  "version": "0.1.0",
+  "description": "TUNY-BUILD: AI Monster by Gaïus Ouarahoun",
+  "author": "Gaïus Ouarahoun",
+  "license": "MIT",
+  "workspaces": ["tuny-build"],
+  "scripts": {
+    "dev": "cd tuny-build && npm run dev",
+    "build": "cd tuny-build && npm run build",
+    "setup": "bash scripts/setup-dev.sh"
+  }
+}
